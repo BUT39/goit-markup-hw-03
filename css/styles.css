@@ -3,17 +3,50 @@ body {
   color: #434455;
   background-color: #fff;
 }
+
+/* ------reset------ */
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 a {
   text-decoration: none;
 }
+/* ----- common----- */
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .text-center {
   text-align: center;
 }
+/* ------heder----- */
 
+.page-header {
+  border-bottom: solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -25,6 +58,10 @@ a {
 }
 .heder-logo .logo-part {
   color: #2e2f42;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
 }
 .nav-link {
   font-weight: 500;
