@@ -56,14 +56,21 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+.heder-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
 .heder-logo .logo-part {
   color: #2e2f42;
 }
 .nav-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -73,8 +80,16 @@ a {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
