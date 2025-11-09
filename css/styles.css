@@ -35,7 +35,7 @@ a {
 /* ------heder----- */
 
 .page-header {
-  border-bottom: solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -62,6 +62,10 @@ a {
 }
 .heder-logo .logo-part {
   color: #2e2f42;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 .nav-list {
   display: flex;
