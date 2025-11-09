@@ -41,12 +41,13 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-
-  .header-nav {
-    display: flex;
-    align-items: center;
-  }
 }
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -63,10 +64,7 @@ a {
 .heder-logo .logo-part {
   color: #2e2f42;
 }
-.header-nav {
-  display: flex;
-  align-items: center;
-}
+
 .nav-list {
   display: flex;
   align-items: center;
