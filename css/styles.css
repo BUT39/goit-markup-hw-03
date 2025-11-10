@@ -179,8 +179,13 @@ a {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-item {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
 }
 .team-subtitle {
   font-weight: 500;
