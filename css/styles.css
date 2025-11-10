@@ -141,10 +141,12 @@ a {
 .benefits {
   padding: 120px 0;
 }
-.visually-hidden {h2
-}
+.hero {visually-hidden}
+
 .benefits-list {display: flex;
 gap: 24px;}
+
+.benefits-item {width: calc((100% - 72px) / 4);}
 .benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
